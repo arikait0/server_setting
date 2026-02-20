@@ -96,7 +96,9 @@ curl  http://localhost:8080
 # コンテナ群の削除
 docker compose down 
 ```
+**成功した場合の実行結果**
 <img width="851" height="37" alt="image" src="https://github.com/user-attachments/assets/c4304a8e-f6eb-4106-b8f8-01629a5a9998" />
+<img width="791" height="200" alt="image" src="https://github.com/user-attachments/assets/a4a74942-d650-4785-a29a-c047196d15c2" />
 
 ## 6.	トラブルシューティング
 Docker のインストールでエラーがでる場合 `cd ~` と打ち込んでホームディレクトリに移動してください。また、`WSL DETECTED`と表示される場合は、20秒ほど待てばインストールが始まります。
