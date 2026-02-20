@@ -1,11 +1,12 @@
 ## 1.	目的と完成条件の定義
-　Docker Compose による Web＋DB の 2 コンテナ構成を行う`http://localhost:8080`にアクセスし、`<h1>ok</h1>`と表示されば成功である。
+　Docker Compose による Web＋DB の 2 コンテナ構成を行う。
+ `http://localhost:8080`にアクセスし、`<h1>ok</h1>`と表示されば成功である。
 
 ## 2. 前提条件
 
 | 項目 | 内容 |
 |------|------|
-| 対象OS | Ubuntu 24.04 LTS (on WSL2) |
+| 対象OS | Ubuntu 24.04.4 LTS (on WSL2) |
 | 実行環境 | Windows 11 + WSL2 |
 | パッケージ管理 | apt, Docker Engine, Docker Compose |
 | ネットワーク | http://localhost:8080 |
